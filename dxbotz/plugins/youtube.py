@@ -4,8 +4,7 @@
 #Author ZIYAN
 from os import mkdir
 from random import randint
-from config import AUTH_CHATS, LOG_GROUP, LOGGER
-from dxbotz import Dxbotz
+from  import Dxbotz
 from pyrogram import filters
 from dxbotz.utils.ytdl import getIds,ytdl_down,audio_opt,thumb_down
 
